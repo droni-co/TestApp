@@ -5,3 +5,4 @@ COPY index.html /usr/local/apache2/htdocs/
 
 # Puerto expuesto por defecto para httpd
 EXPOSE 80
+CMD ["httpd-foreground"]
